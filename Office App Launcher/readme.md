@@ -1,5 +1,5 @@
 # What operating systems does this work on?
-- This will \*\*only\*\* work on Microsoft Windows.
+- This will **only** work on Microsoft Windows.
 
 # Outlook isn't working properly on the web section.
 Outlook might not be working properly because of the differences between personal accounts and business accounts.
