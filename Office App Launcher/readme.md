@@ -1,5 +1,5 @@
 # History of this app
-I made this simple batchfile back in 2023, because I wanted to make it easier to open office apps on your computer. It's a very simple batchfile which can easily be modified. 
+I made this simple batchfile back in 2023, because I wanted to make it easier to open Office apps on your computer. It's a very simple batchfile which can easily be modified. 
 
 Feel free to add improvements!
 
