@@ -6,12 +6,13 @@ title %name% - Welcome!
 echo This requires Office apps to be installed on your computer to work. If you don't have Office apps installed on your computer, press 6 on your keyboard to install them or press 9 to launch the web version.
 echo You can download this for your own computer at https://archive.madds.lol.
 echo.
-echo Press 1 to launch Outlook.
+echo Press 1 to launch classic Outlook.
 echo Press 2 to launch Word.
 echo Press 3 to launch PowerPoint.
 echo Press 4 to launch Excel.
 echo Press 5 to launch OneNote.
 echo Press 6 to install Microsoft Office apps on your computer.
+echo Press 7 to launch new Outlook. 
 echo Press 9 to switch to the web version.
 echo Press 0 to find out more about this project.	
 echo.
@@ -23,6 +24,7 @@ if %function.peposies.launch.option% == 3 start powerpnt.exe
 if %function.peposies.launch.option% == 4 start excel.exe
 if %function.peposies.launch.option% == 5 start onenote.exe
 if %function.peposies.launch.option% == 6 goto app.peposies.install.office
+if %function.peposies.launch.option% == 7 start olk.exe
 if %function.peposies.launch.option% == 9 goto app.peposies.launch.web
 if %function.peposies.launch.option% == 0 goto app.peposies.findoutmore
 goto app.peposies.launch
