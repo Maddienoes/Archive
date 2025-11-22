@@ -1,6 +1,4 @@
 @echo off
-cls
-goto app.peposies.launch
 :app.peposies.launch
 set name=Office App Launcher
 cls
@@ -38,7 +36,7 @@ pause
 echo Microsoft Office has now been sucessfully installed on your computer!
 pause
 cls
-echo Now returning to %name%'s HOME Menu.
+echo Now returning to the main menu.
 goto app.peposies.launch
 :app.peposies.launch.web
 cls
@@ -68,11 +66,5 @@ cls
 title %name% - Find out more.
 echo Hey there, thanks for using my software. I made this software because computers in my school sometimes don't open Office apps so I made this application to make opening Office apps easier to open on my school computers.
 echo.
-echo You can press 1 to return to the HOME Menu at any time - this will take you back to the previous screen where you can launch the apps.
-echo ------------------------------------------------------
-echo Information
-echo Software Name- %name%
-echo Software Version - %version%
-echo What's new in this version? - %whatsnew%
-set /p function.peposies.findoutmore.option=
-if %function.peposies.findoutmore.option% == 1 goto app.peposies.launch
+echo Press 1 to return to the main menu.
+pause
